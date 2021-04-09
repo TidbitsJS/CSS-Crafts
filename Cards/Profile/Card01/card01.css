@@ -1,0 +1,102 @@
+body {
+  background-color: #fabe58;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  background-color: #fff;
+  height: 450px;
+  width: 310px;
+
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 8px;
+  box-shadow: 0 0 20px 10px rgba(233, 144, 7, 0.7);
+}
+
+.info {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 35px;
+  font-family: "Courier New", Courier, monospace;
+  color: #f79f08;
+  /* position: absolute; */
+  letter-spacing: 2px;
+  font-weight: 600;
+  /* top: 100px; */
+
+  margin-top: 6rem;
+}
+
+.prof {
+  font-size: 20px;
+  /* position: absolute; */
+  /* top: 140px; */
+  font-family: "Courier New", Courier, monospace;
+  color: #555;
+  margin-top: 0.7rem;
+}
+
+.divider {
+  background-color: #949594;
+  height: 1.5px;
+  width: 50px;
+  /* position: absolute; */
+  /* top: 190px; */
+  margin-top: 1rem;
+}
+
+.bio {
+  /* position: absolute; */
+  /* top: 220px; */
+  color: #949594;
+  text-align: center;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 28px;
+  padding: 0 10px;
+
+  margin-top: 1.5rem;
+}
+
+button {
+  /* position: absolute; */
+  bottom: 20px;
+  background-color: #f79f08;
+  border: none;
+  font-size: 20px;
+  padding: 13px 25px;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 1rem;
+}
+
+.photo {
+  height: 100%;
+  width: 100%;
+  background: url("https://images.unsplash.com/photo-1506099914961-765be7a97019?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  position: absolute;
+  bottom: 0;
+  background-size: 100% 100%;
+  border-radius: 8px;
+  transition: 1s;
+}
+
+.card:hover .photo {
+  transform: scale(0.5, 0.35) translateY(-650px);
+  background-size: 100% 150%;
+  background-position: 0 -25px;
+  border-radius: 50%;
+}
