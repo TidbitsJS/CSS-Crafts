@@ -8,17 +8,17 @@ body {
   justify-content: center;
   align-items: center;
   background: #d3d3dd;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-  position: relative;
-  width: 1100px;
+  /* position: relative; */
+  /* width: 1100px; */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   flex-wrap: wrap;
-  padding: 30px;
+  padding: 30px 10px;
 }
 
 .container .card {
@@ -37,10 +37,13 @@ body {
 }
 
 .container .card:hover {
-  height: 300px;
+  height: 280px;
   width: 250px;
-  border-radius: 0%;
+  border-radius: 1%;
   padding: 10px;
+
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 .container .card .imgBx {
@@ -68,16 +71,23 @@ body {
   color: #111;
   visibility: hidden;
   opacity: 0;
-  transition: 0.3s ease-in-out;
-}
+  display: none;
+  /* transition: 0.3s ease-in-out; */
 
-.container .card:hover .content p {
   font-size: 15px;
 }
 
 .container .card:hover .content {
   visibility: visible;
   opacity: 1;
-  /* margin-top: -40px; */
-  transition-delay: 0.3s;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  /* transition-delay: 0.05s; */
+}
+
+.container .card:hover .content p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-top: 5px;
 }
