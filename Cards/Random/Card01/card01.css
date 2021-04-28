@@ -11,28 +11,28 @@ body {
 .iron {
   --bg-color: #ffd861;
   --bg-color-light: #ffeeba;
-  --text-color-hover: #4c5656;
+  --text-color-hover: #000;
   --box-shadow-color: rgba(255, 215, 97, 0.48);
 }
 
 .education {
   --bg-color: #bbf9d3;
   --bg-color-light: #e2fced;
-  --text-color-hover: #4c5656;
+  --text-color-hover: #000;
   --box-shadow-color: rgba(184, 249, 211, 0.48);
 }
 
 .scream {
   --bg-color: #f9dbd2;
   --bg-color-light: #fff3ef;
-  --text-color-hover: #4c5656;
+  --text-color-hover: #000;
   --box-shadow-color: rgba(220, 233, 255, 0.48);
 }
 
 .mario {
   --bg-color: #dce9ff;
   --bg-color-light: #f1f7ff;
-  --text-color-hover: #fff;
+  --text-color-hover: #000;
   --box-shadow-color: rgba(220, 233, 255, 0.48);
 }
 
