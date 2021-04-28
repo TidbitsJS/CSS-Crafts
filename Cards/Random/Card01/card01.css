@@ -23,14 +23,14 @@ body {
 }
 
 .scream {
-  --bg-color: #f9dbd2;
+  --bg-color: #f5c0b0;
   --bg-color-light: #fff3ef;
   --text-color-hover: #000;
   --box-shadow-color: rgba(220, 233, 255, 0.48);
 }
 
-.mario {
-  --bg-color: #dce9ff;
+.apple {
+  --bg-color: #b0cdff;
   --bg-color-light: #f1f7ff;
   --text-color-hover: #000;
   --box-shadow-color: rgba(220, 233, 255, 0.48);
