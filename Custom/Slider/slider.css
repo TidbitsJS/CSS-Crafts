@@ -60,6 +60,10 @@ button {
   background-color: transparent;
 }
 
+.dot-container button:nth-child(1) {
+  background-color: #8052ec;
+}
+
 #prev,
 #next {
   height: 40px;
